@@ -1,0 +1,38 @@
+.footer {
+    background-color: black;
+    color: #00ff00;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #f39c12;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1rem 0.5rem;
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .social-icon {
+      font-size: 1.2rem;
+    }
+  }
+  
